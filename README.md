@@ -48,3 +48,64 @@ This system allows citizens to submit complaints, departments to resolve them, a
 ### Step 1: Create Database
 Create a database named:
 
+
+### Step 2: Run SQL Scripts
+Run scripts in this order:
+
+1. `Database/CreateTables.sql`
+2. `Database/SeedData.sql`
+
+---
+
+## 🔑 Default Login Credentials (Seed Data)
+
+| Role  | Username   | Password  |
+|------|------------|-----------|
+| ADMIN | admin      | admin123  |
+| DEPT  | dept_elec  | 123       |
+| USER  | user1      | 123       |
+
+---
+
+## 🖼 Screenshots
+
+### Login
+![Login](Screenshots/01_Login.png)
+
+### Register
+![Register](Screenshots/02_Register.png)
+
+### User Dashboard
+![User Dashboard](Screenshots/03_UserDashboard.png)
+
+### Submit Complaint
+![Submit Complaint](Screenshots/04_SubmitComplaint.png)
+
+### Department Pending Complaints
+![Department Pending](Screenshots/05_DeptPending.png)
+
+### Admin - All Complaints
+![Admin All Complaints](Screenshots/06_AdminAllComplaints.png)
+
+---
+
+## ▶ How to Run (Local Setup)
+
+1. Open project in **Visual Studio 2010**
+2. Restore required references (if any)
+3. Update connection string in `Web.config`
+4. Run project (`F5`)
+
+---
+
+## 📌 Future Improvements
+- Password hashing
+- OTP based password reset
+- Email notifications on status change
+- Export reports to Excel/PDF
+
+---
+
+## 👨‍💻 Author
+**Mohammad Sahil**  
+GitHub: [MohammadSahil018](https://github.com/MohammadSahil018)
