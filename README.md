@@ -70,22 +70,22 @@ Run scripts in this order:
 ## 🖼 Screenshots
 
 ### Login
-![Login](Screenshots/01_Login.png)
+![Login](Screenshots/login.png)
 
 ### Register
-![Register](Screenshots/02_Register.png)
+![Register](Screenshots/SignUp.png)
 
 ### User Dashboard
-![User Dashboard](Screenshots/03_UserDashboard.png)
+![User Dashboard](Screenshots/User Dashboard.png)
 
 ### Submit Complaint
-![Submit Complaint](Screenshots/04_SubmitComplaint.png)
+![Submit Complaint](Screenshots/Submit Complain.png)
 
 ### Department Pending Complaints
-![Department Pending](Screenshots/05_DeptPending.png)
+![Department Pending](Screenshots/Complain History.png)
 
 ### Admin - All Complaints
-![Admin All Complaints](Screenshots/06_AdminAllComplaints.png)
+![Admin All Complaints](Screenshots/All Complains in Admin.png)
 
 ---
 
