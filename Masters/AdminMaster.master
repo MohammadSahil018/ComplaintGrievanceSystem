@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="Masters_AdminMaster" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <title>Admin Command Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="../Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <aside class="sidebar admin">
+            <h2><i class="fas fa-user-shield"></i> ADMIN PANEL</h2>
+            <asp:HyperLink ID="lnkDash" NavigateUrl="~/Admin/Dashboard.aspx" CssClass="nav-link" runat="server">
+                <i class="fas fa-th-large"></i> Dashboard
+            </asp:HyperLink>
+            <asp:HyperLink ID="lnkAll" NavigateUrl="~/Admin/AllComplaints.aspx" CssClass="nav-link" runat="server">
+                <i class="fas fa-folder-open"></i> All Complaints
+            </asp:HyperLink>
+            <asp:HyperLink ID="lnkUsers" NavigateUrl="~/Admin/UserManagement.aspx" CssClass="nav-link" runat="server">
+                <i class="fas fa-users-cog"></i> User Management
+            </asp:HyperLink>
+            <asp:HyperLink ID="lnkDepartments" NavigateUrl="~/Admin/Departments.aspx"
+                CssClass="nav-link" runat="server">
+                <i class="fas fa-sitemap"></i> Departments
+            </asp:HyperLink>
+            <asp:HyperLink ID="lnkDeptOfficers" NavigateUrl="~/Admin/DeptUserManagement.aspx"
+                CssClass="nav-link" runat="server">
+                <i class="fas fa-users-cog"></i> Dept Officers
+            </asp:HyperLink>
+
+            <div style="margin-top: auto;">
+                <asp:HyperLink ID="lnkLogout" NavigateUrl="~/Logout.aspx" CssClass="nav-link" runat="server" style="color:#f87171">
+                    <i class="fas fa-power-off"></i> Sign Out
+                </asp:HyperLink>
+            </div>
+        </aside>
+        <main class="main-wrapper">
+            <header class="top-bar">
+                <h1 style="font-size: 1.25rem;">System Oversight</h1>
+                <div style="color: #f43f5e; font-weight: 600;"><i class="fas fa-circle"></i> Administrator Live</div>
+            </header>
+            <div class="content-card">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+        </main>
+    </form>
+</body>
+</html>

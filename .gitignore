@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+
+# Debug folders
+Debug/
+Release/
+
+# Logs
+*.log
+
+# Local DB
+App_Data/*.mdf
+App_Data/*.ldf
