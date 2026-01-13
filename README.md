@@ -82,10 +82,10 @@ Run scripts in this order:
 ![Submit Complaint](Screenshots/SubmitComplain.png)
 
 ### Department Pending Complaints
-![Department Pending](Screenshots/DeptComplainHistory.png)
+![Department Pending](Screenshots/DeptComplaintsHistory.png)
 
 ### Admin - All Complaints
-![Admin All Complaints](Screenshots/AllComplainsInAdmin.png)
+![Admin All Complaints](Screenshots/AllComplaintsInAdmin.png)
 
 ---
 
