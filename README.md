@@ -76,16 +76,16 @@ Run scripts in this order:
 ![Register](Screenshots/SignUp.png)
 
 ### User Dashboard
-![User Dashboard](Screenshots/User Dashboard.png)
+![User Dashboard](Screenshots/UserDashboard.png)
 
 ### Submit Complaint
-![Submit Complaint](Screenshots/Submit Complain.png)
+![Submit Complaint](Screenshots/SubmitComplain.png)
 
 ### Department Pending Complaints
-![Department Pending](Screenshots/Complain History.png)
+![Department Pending](Screenshots/DeptComplainHistory.png)
 
 ### Admin - All Complaints
-![Admin All Complaints](Screenshots/All Complains in Admin.png)
+![Admin All Complaints](Screenshots/AllComplainsInAdmin.png)
 
 ---
 
